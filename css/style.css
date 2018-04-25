@@ -1,4 +1,84 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+header .wrapper {
+    padding-left: 230px;
+    padding-right: 230px;
+}
+header {
+    background: #333335 url(../img/header-bg.jpg) no-repeat top center;
+    color: #fff;
+}
+ header .container {
+    padding: 44px 2px 116px 7px;
+}
+nav {
+    display: flex;
+    
+}
+nav img {
+    width: 79px;
+    height: 28px;
+    margin-right: 376px;
+}
+.header-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+}
+.header-nav li {
+    text-transform: uppercase;
+    margin-right: 42px;
+}
+.header-nav li:last-child {
+    margin-right: 0;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-nav a:hover {
+    text-decoration: underline;
+}
+.header-welcome {
+    margin: 0;
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    margin-top: 51px;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-btn {
+    display: inline-block;
+    width: 240px;
+    margin-top: 59px;
+    margin-left: 350px;
+    padding-top: 24px;
+    padding-bottom: 26px;
+    background-color: #fed136;
+    color: #484543;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.header-btn:hover {
+    text-decoration: underline;
+    background-color: #fed172;
 }
