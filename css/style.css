@@ -4,22 +4,22 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    width: 100%;
-}
-header .wrapper {
-    padding-left: 230px;
-    padding-right: 230px;
+    width: 1400px;
+    
 }
 header {
     background: #333335 url(../img/header-bg.jpg) no-repeat top center;
     color: #fff;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 116px;
 }
- header .container {
-    padding: 44px 2px 116px 7px;
+.container {
+    padding-right: 232px;
+    padding-left: 237px;
 }
 nav {
     display: flex;
-    
 }
 nav img {
     width: 79px;
@@ -81,4 +81,54 @@ header h1 {
 .header-btn:hover {
     text-decoration: underline;
     background-color: #fed172;
+}
+.services {
+    padding-top: 120px;
+    padding-bottom: 117px;
+}
+.services h2 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-subhead {
+    margin: 0;
+    text-align: center;
+    color: #777777;
+}
+.section-advantages {
+    display: flex;
+    margin-top: 78px;
+}
+.advantage-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.advantage-item:last-child {
+    margin-right: 0;
+}
+.advantage-item img {
+    margin: 0 auto;
+    width: 74px;
+    height: 73px;
+}
+.advantage-item h3 {
+    margin: 0;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #222222;
+}
+.advantage-item p {
+    margin: 0;
+    margin-top: 15px;
+    color: #777777;
+    text-align: center;
 }
